@@ -12,6 +12,7 @@ public class Main {
             Student wypakowany = s.get();
             System.out.println(wypakowany);
         }
+
         Student student =journal.zwrocStudenta2_zle("123");
         if(student != null){
             System.out.println(student.getImie());

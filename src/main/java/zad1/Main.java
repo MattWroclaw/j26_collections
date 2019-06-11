@@ -11,7 +11,6 @@ public class Main {
         Random generator = new Random();
 
 
-
         List<Integer> lista = new ArrayList<Integer>();
 
         for (int i=0; i<5; i++){

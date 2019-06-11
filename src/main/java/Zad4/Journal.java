@@ -17,7 +17,7 @@ public class Journal {
         studentMap.remove(student.getIndeks());
 
     }
-
+//usuwanie studenta po nr indexu
     public void usnStudenta(String indeks){
         studentMap.remove(indeks);
 
@@ -81,6 +81,8 @@ public class Journal {
                 //-1 gdy o1<o2
                 int indeks1 = Integer.parseInt(o1.getIndeks());
                 int indeks2 = Integer.parseInt(o2.getIndeks());
+
+
 
                 return Integer.compare(indeks1, indeks2);
             }
